@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap');
+
+
+#intro{
+    background: rgba(82, 82, 82, 0.664) url(../../assets/aee83d11caeb7cd3df17475de5df859d.jpg);
+    height: 100%;
+    width: 100vw;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: luminosity;
+    position: absolute;
+z-index: 1;
+}
+
+h1{
+font-family: "Audiowide", sans-serif;
+}
+
+#container{
+    /* position: relative; */
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 60%;
+    background-color: rgba(128, 128, 128, 0.644);
+    border: 2px solid rgba(255, 248, 248, 0.986);
+    border-radius: 50px;
+    margin: 70px auto ;
+    color: white;
+    font-family: 'Anton', sans-serif;
+font-family: 'Outfit', sans-serif;
+
+
+}
+p{
+    justify-items: center;
+}
+a{
+    text-decoration: none;
+color: rgb(54, 53, 53);
+}
+

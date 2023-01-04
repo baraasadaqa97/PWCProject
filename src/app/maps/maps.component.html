@@ -1,0 +1,23 @@
+ <header>
+   <h1>Locations </h1>
+   <label for=""></label>
+   <input type="text" placeholder="City " value="Sushi" [(ngModel)]="cityName">
+   <button mat-raised-button (click)="getLocation()"> Search </button>
+
+</header>
+
+<google-map  height="100vh"
+width="100vwpx"
+[center]="center"
+[zoom]="zoom"
+>
+<map-marker
+*ngFor="let marker of markers"
+[position]="marker.position"
+[label]="marker.label"
+[title]="marker.title"
+[options]="marker.options"
+>
+</map-marker>
+</google-map>
+
